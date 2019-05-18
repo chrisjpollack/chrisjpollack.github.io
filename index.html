@@ -1,21 +1,26 @@
+<!DOCTYPE html>
 <html>
 	<head>
-
 		<title>
 		eft.gg
 		</title>
-
-
+		<link href="lightbox.css" rel="stylesheet">
 	</head>
 
 	<body>
-
 	<link href = "style.css" type = "text/css" rel = "stylesheet" /> 
-
+	<script>
+    lightbox.option({
+      'resizeDuration': 100,
+      'imageFadeDuration': 100,
+      'disableScrolling': false,
+      'fadeDuration': 100,
+      'fitImagesInViewport': false,
+    })
+</script>
 	<h6>
 	<a href="http://stulta.me" class=header>stulta.me</a>
 	</h6>
-
 	<h1 align=center>
 		escape from tarkov resources
 	</h1>
@@ -30,17 +35,17 @@
 		</h2>
 
 		<h3 align=center>
-		<a href="customs-map.jpg">Customs</a>
+		<a href="customs-map.jpg" data-lightbox="maps" data-title="customs map">Customs</a>
 		<br /><br />
-		<a href="factory-map.png">Factory</a>
+		<a href="factory-map.png" data-lightbox="maps" data-title="factory map">Factory</a>
 		<br /><br />
-		<a href="shoreline-map.png">Shoreline</a>
+		<a href="shoreline-map.png" data-lightbox="maps" data-title="shoreline map">Shoreline</a>
 		<br /><br />
-		<a href="interchange-map.png">Interchange</a>
+		<a href="interchange-map.jpg" data-lightbox="maps" data-title="interchange map">Interchange</a>
 		<br /><br />
-		<a href="woods-map.jpg">Woods</a>
+		<a href="woods-map.jpg" data-lightbox="maps" data-title="woods map">Woods</a>
 		<br /><br />
-		<a href="labs-map.png">Terragroup Labs</a>
+		<a href="labs-map.png" data-lightbox="maps" data-title="terragroup labs map">Terragroup Labs</a>
 		</h3>
 	</td>
 
@@ -49,11 +54,11 @@
 		key maps
 	</h2>
 	<h3 align=center>
-	<a href="shorelinekeymap.png">shoreline</a>
+	<a href="shorelinekeymap.png" data-lightbox="keymaps" data-title="shoreline key map">shoreline</a>
 	<br /><br />
-	<a href="customs-keys.jpg">customs</a>
+	<a href="customs-keys.jpg" data-lightbox="keymaps" data-title="customs key map">customs</a>
 	<br /><br />
-	<a href="dorms-map.jpg">dorm rooms</a>
+	<a href="dorms-map.jpg" data-lightbox="keymaps" data-title="dorms key map">dorm rooms</a>
 	</h3>
 	</td>
 
@@ -63,7 +68,7 @@
 		</h2>
 
 		<h3 align=center>
-		<a href="https://docs.google.com/spreadsheets/d/1jjWcIue0_PCsbLQAiL5VrIulPK8SzM5jjiCMx9zUuvE/htmlview?sle=true">NoFoodBeforeMidnight</a>
+		<a href="https://docs.google.com/spreadsheets/d/1jjWcIue0_PCsbLQAiL5VrIulPK8SzM5jjiCMx9zUuvE/htmlview?sle=true" target="_blank">NoFoodBeforeMidnight</a>
 	</h3>
 	</td>
 	</tr>
@@ -76,9 +81,9 @@
 	</h2>
 
 	<h3 align=center>
-	<a href="food-drink.jpg">Food / Drink</a>
+	<a href="food-drink.jpg" data-lightbox="consumables" data-title="food + drink">Food / Drink</a>
 	<br /><br />
-	<a href="meds.jpg">Meds</a>
+	<a href="meds.jpg" data-lightbox="consumables" data-title="meds">Meds</a>
 	</h3>
 	</td>
 	<td>
@@ -88,13 +93,13 @@
 	</h2>
 
 	<h3 align=center>
-	<a href="prapor.jpg">Prapor</a>
+	<a href="prapor.jpg" data-lightbox="traders" data-title="prapor">Prapor</a>
 	<br /><br />
-	<a href="therapist.png">Therapist</a>
+	<a href="therapist.png" data-lightbox="traders" data-title="elvira">The rapist</a>
 	<br /><br />
-	<a href="skier.jpg">Skier</a>
+	<a href="skier.jpg" data-lightbox="traders" data-title="skier">Skier</a>
 	<br /><br />
-	<a href="peacekeeper.jpg">Peacekeeper</a>
+	<a href="peacekeeper.jpg" data-lightbox="traders" data-title="pk">Peacekeeper</a>
 	</h3>
 	</td>
 	<td>
@@ -103,17 +108,17 @@
 		</h2>
 
 		<h3 align=center>
-		<a href="quest-guide.png">quest guide</a>
+		<a href="quest-guide.png" data-lightbox="quests" data-title="quest guide">quest guide</a>
 	</h3>
 		<h3 align=center>
-		<a href="quest-items.png">quest items to keep</a>
+		<a href="quest-items.png" data-lightbox="quests" data-title="quest items">quest items to keep</a>
 	</h3>
 	</td>
 	</tr>
 
 </table>
 
-
+<script src="lightbox-plus-jquery.js"></script>
 	</body>
 
 </html>
